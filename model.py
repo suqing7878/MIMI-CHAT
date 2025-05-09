@@ -28,11 +28,8 @@ model_list = {    'o4-mini':['openai/o4-mini','openrouter','VL','tool'],  # $1.1
                   'Gemini-2.5-Pro':['google/gemini-2.5-pro-preview-03-25','openrouter','VL','tool'], # $3   $15
                   'Gemini-2.5-Flash-thinking':['google/gemini-2.5-flash-preview:thinking','openrouter','VL','tool'], # $3   $15
 
-                  'Claude-3.7':['claude-3-5-haiku-20241022','official','VL','tool','None'], #多一个字段 $2.5   $15
-                  'Claude-3.7-thinking':['claude-3-5-haiku-20241022','official','VL','tool','None'], # $2.5   $15
-
-                #   'Claude-3.7':['claude-3-7-sonnet-20250219','official','VL','tool','None'], #多一个字段 $2.5   $15
-                #   'Claude-3.7-thinking':['claude-3-7-sonnet-20250219','official','VL','tool','thinking'], # $2.5   $15
+                   'Claude-3.7':['claude-3-7-sonnet-20250219','official','VL','tool','None'], #多一个字段 $2.5   $15
+                   'Claude-3.7-thinking':['claude-3-7-sonnet-20250219','official','VL','tool','thinking'], # $2.5   $15
 
                   'QWQ':['qwq-plus-latest','official','Text','tool','None'], # 1.6  4
                   'QVQ':['qvq-max-latest','official','VL','None','None'],  #8  32
