@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+    <!--==================== UNICONS 图标====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>MIMI Chat</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">MIMI CHAT</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                <p>Home</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                <p>About</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Development" class="nav__link"> <!-- 改为 #qualification -->
+                <i class="uil uil-file-alt nav__icon"></i>
+                <p>Development</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Application" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                <p>Application</p>
+              </a>
+            </li>
+            
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="0"
+                    y="-30"
+                    xlink:href="assets/img/cat.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">
+                MIMI CHAT   <!--ʕ •ᴥ•ʔ -->
+              </h1>
+              <h3 class="home__subtitle">
+                A User-friendly AI Chat Tool ʕ •ᴥ•ʔ
+              </h3>
+              <p class="home__description">
+                
+            🎨新增多个图像生成、图像编辑接口<br />
+            🎨生成的图像点击可以下载啦~<br />
+            
+            
+              </p>
+              <!-- 修改 href 属性 -->
+              <a href="/login" class="button button-flex">
+                <span>Click to LogIn</span>
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Mimi</h2>
+        <span class="section__subtitle">
+           Introduction
+        </span>
+        <div class="about__container container grid">
+          <img src="assets/img/about.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              Mimi-Air 基于全自动路由系统,根据指令实现低延迟智能切换多个专用模型回复。<br />
+              Mimi-Pro 更加适合复杂任务和数学问题,通过CoT和交叉信息检索实现精确回复。 <br />
+              为什么是MIMI? 杨咪咪是我的小猫≽^ ⦁ ⩊ ⦁ ^≼<br />
+              
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">40+</span>
+                <span class="about__info-name">
+                  支持模型 
+                </span>
+              </div>
+
+              <div>
+                <span class="about__info-title">3+</span>
+                <span class="about__info-name">
+                  全球搜索引擎
+              
+                </span>
+              </div>
+
+              <div>
+                <span class="about__info-title">2+</span>
+                <span class="about__info-name">
+                  每周奖励猫条
+              
+                </span>
+              </div>
+            </div>
+
+            <!--= <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/简历.pdf"
+                class="button button--flex"
+              >
+                <span>Download CV</span>
+                <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>=-->
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+       <!--<section class="qualification section">-->
+      <section class="qualification section" id="Development"></section>
+        <h2 class="section__title">
+          Development process
+        </h2>
+        <span class="section__subtitle">
+          Update log
+        </span>
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <span>ChatWeb</span>
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              <span>mimi🐾</span>
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    第一代聊天工具
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                  >
+                  只有几个人使用过。黑橙配色,多次被吐槽颜值
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2024-10
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">
+                    OpenWeb UI
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                  >
+                  大部分使用的版本,后端写的不好,经常崩溃
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2024-12-2025-4
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    MIMI CHAT
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                  >
+                  全新版本,更快且支持更加复杂的功能调用。感谢欣阳同学的前端支持！
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2025-4 - Now
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+              </div>
+            </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    捡到猫
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                  >
+                  我爱人买菜时候在小区里捡到的
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2023-09-16
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">
+                    Birthday
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                  >
+                  杨咪咪一岁生日,可我们都忘记了,一个餐包安抚一下
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2024-09-16
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Fish
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                  >
+                  杨咪咪获得了鱼缸,实现了喝水自由
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2025-04 - Now
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                </div>
+              </div>
+            </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="Application">
+        <h2 class="section__title">Application</h2>
+        <span class="section__subtitle">
+          Interesting tools
+        </span>
+
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/a2f2d2e5-077e-40ac-84de-6b8ab5a72ca8.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">
+                  角色扮演游戏
+                </h3>
+                <p
+                  class="portfolio__description"
+                >
+                测试版,收集改进意见中
+                </p>
+                <a
+                  href="https://www.baidu.com/index.htm/"  
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/4564e7b8-4890-45ff-8937-12ac5ff1c4bd.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">
+                  Under development
+                </h3>
+                <p
+                  class="portfolio__description"
+                >
+                This person is very lazy and hasn't left anything behind.
+                </p>
+                <a
+                  href="https://www.baidu.com/index.htm/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/901c5cbe-8f52-49cc-8306-582ea8d4cd3a.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title">
+                  Under development
+                </h3>
+                <p
+                  class="portfolio__description"
+                >
+                This person is very lazy and hasn't left anything behind.
+                </p>
+                <a
+                  href="https://www.baidu.com/index.htm/"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- add arrows-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">MIMI CHAT</h1>
+            <span class="footer__subtitle">
+              A User-friendly AI Chat Tool
+            </span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#skills" class="footer__link">网站不开了怎么办？<br />直接微信我比较快</a>
+            </li>
+             
+          <li>
+              <a href="#contact" class="footer__link">用户名忘记了？<br />就是你的中文名</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+    
