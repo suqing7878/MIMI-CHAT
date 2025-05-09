@@ -420,7 +420,7 @@ def rename_history():
 def login():
     user_name = request.json.get('user_name') # 用户名
 
-    if user_name not in ['admin','聂静霞','王伟','柯心怡','王怡文','王欣阳','李文涛','曾俊扬','林炫逸']:
+    if user_name not in ['admin']:
         return jsonify({"status": "false"}), 400
     
     # 处理login，不需要存名字
