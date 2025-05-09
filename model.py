@@ -1,21 +1,15 @@
 
 import openai
-import time
 import json
 import os
-from zhipuai import ZhipuAI
 from datetime import datetime
-from pathlib import Path
 import base64
 import time
-import itertools
-import sys
-import uuid
 import copy
 from datetime import datetime
 from util import conver2pdf,convert_to_png
 from api_key import api_key
-from search import presearch_bool,main_search
+from search import main_search
 import requests
 from draw import url_2_base64,generate_image_ideogram_remix,generate_image_MJ,generate_image_dall,generate_image_GPT,generate_image_flux,generate_image_ideogram,generate_image_Qwen,generate_image_minimax,generate_image_gpt_image,generate_image_gpt_edits
 from draw import generate_image_gemini_edit,generate_image_gemini

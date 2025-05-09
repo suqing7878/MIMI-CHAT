@@ -661,8 +661,8 @@ def model_name():
     return jsonify({"status": "success", "model_name": modelButtons,"modelFileSupport":modelFileSupport}), 200
 
 if __name__ == '__main__':
-    app.run(host='192.168.1.49', port=80, debug=False)
-    #app.run( debug=True)
+    #app.run(host='xxx.xxx.x.xx', port=xxxx, debug=False)
+    app.run( debug=True)
 
 
 

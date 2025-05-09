@@ -1,14 +1,12 @@
-from exa_py import Exa
+
 from datetime import datetime
 import json
 import openai
 from api_key import api_key
 import requests
-
 import json
 from typing import Dict, Any
 from exa_py import Exa
-from openai import OpenAI
 import requests
 
 #client = openai.OpenAI(api_key=f"{api_key('deepseek')}", base_url="https://api.deepseek.com")

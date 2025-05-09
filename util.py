@@ -15,12 +15,8 @@ from api_key import api_key
 from PIL import Image
 import json
 import openai
-import os
-import subprocess
-import platform
 from pathlib import Path
-import copy
-import io
+
 def convert_to_pdf(input_file, output_dir=None):
     """
 
