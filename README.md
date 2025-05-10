@@ -17,6 +17,7 @@ app.run(host='xxx.xxx.x.xx', port=xxxx, debug=False)
 请将 `xxx.xxx.x.xx` 和 `xxxx` 替换为您的实际 IP 和端口号。
 6. API 密钥配置
 为了启用 AI 功能，您需要在 `MIMI-CHAT/api_key.py` 文件中添加相应的 API 密钥。
+7. 初始登录用户名：admin
 
 ### 支持功能
 MIMI CHAT 提供了丰富的功能，支持多种 AI 模型和扩展。以下是主要功能列表：
